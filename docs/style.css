@@ -1,0 +1,50 @@
+body {
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 375px) {
+  body {
+    font-family: sans-serif;
+  }
+
+  #title {
+    margin-left: 1ex;
+    font-size: 4.3ex;
+  }
+
+  #lab {
+    width: 2em;
+    margin-left: 1rem;
+    margin-right: 8rem;
+    font-size: 2.7ex;
+    font-weight: 600;
+  }
+
+  #inp {
+    width: 20rem;
+    height: 1.7rem;
+    margin-left: 1rem;
+  }
+
+  #d-form {
+    margin-left: .5rem;
+  }
+
+  #d-inp {
+    margin-bottom: 1rem;
+  }
+
+  #btn {
+    width: 20.5rem;
+    height: 2rem;
+    color: #fff;
+    background-color: #000;
+    outline: none;
+    margin-left: 1rem;
+    font-size: 2.7ex;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
