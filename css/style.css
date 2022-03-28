@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+}
+
+@media(max-width: 375px){
+    body{
+        font-family: sans-serif;
+    }
+
+    #title{
+        margin-left: 1ex;
+        /* width: 15rem; */
+        font-size: 4.3ex;
+    }
+
+    #lab{
+        width: 2em;
+        margin-left: 1rem;
+        margin-right: 8rem;
+        font-weight: 600;
+        font-size: 2.7ex;
+    }
+
+    #inp{
+        width: 20rem;
+        height: 1.7rem;
+        margin-left: 1rem;
+    }
+
+    #d-form{
+        margin-left: 0.5rem;;
+    }
+
+    #d-inp{
+        margin-bottom:1rem;
+    }
+
+    #btn{
+        margin-left: 1rem;
+        width: 20.5rem;
+        height: 2rem;
+        color: white;
+        background-color: black;
+        font-size: 2.7ex;
+        outline: none;
+    }
+    
+}
